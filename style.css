@@ -18,14 +18,15 @@ header {
 }
 
 .banner {
-    position: relative;
-    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .banner img {
     width: 100%;
     height: auto;
-    transition: opacity 1s ease-in-out;
+    max-height: 400px; /* Limita a altura do banner */
+    object-fit: cover; /* Cobre o espaço do banner */
 }
 
 .conteudo {
@@ -38,10 +39,27 @@ header {
 
 h2 {
     color: #333; /* Cor dos títulos */
+    margin-top: 20px; /* Espaçamento acima dos títulos */
+}
+
+.cientista-imagem {
+    width: 100%; /* Imagem ocupa toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Espaçamento acima e abaixo da imagem */
 }
 
 footer {
-    background: #333;
+    background: #333; /* Cor de fundo do rodapé */
     color: white;
-    text-align
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos do rodapé */
 }
