@@ -1,46 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Cor de fundo padrão */
-}
 
-header {
-    background: #4a90e2; /* Cor do cabeçalho */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografias de Cientistas Famosos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo da Página" class="logo">
+        <h1>Biografias de Cientistas Famosos</h1>
+    </header>
+    
+    <main>
+        <div class="banner">
+            <img id="banner-image" src="banner1.jpg" alt="Banner de Cientistas Famosos">
+        </div>
+        
+        <section class="conteudo">
+            <h2>Marie Curie</h2>
+            <p>Marie Curie, nascida Maria Skłodowska em 7 de novembro de 1867, foi uma física e química polonesa. Ela é famosa por suas pesquisas sobre a radioatividade, um termo que ela mesma cunhou. Curie foi a primeira mulher a ganhar um Prêmio Nobel e a única a ganhar em duas áreas diferentes: Física (1903) e Química (1911). Suas descobertas sobre o polônio e o rádio abriram caminho para o uso da radiação em tratamentos médicos.</p>
+            
+            <h2>Isaac Newton</h2>
+            <p>Isaac Newton nasceu em 25 de dezembro de 1642, em Woolsthorpe, Inglaterra. Ele é amplamente considerado um dos maiores cientistas de todos os tempos. Newton formulou as três leis do movimento e a lei da gravitação universal, que descreve a atração entre objetos massivos. Seu trabalho "Philosophiæ Naturalis Principia Mathematica", publicado em 1687, é uma das obras mais influentes da história da ciência, estabelecendo as bases da mecânica clássica.</p>
+            
+            <h2>Albert Einstein</h2>
+            <p>Albert Einstein nasceu em 14 de março de 1879, em Ulm, na Alemanha. Ele revolucionou a física com sua teoria da relatividade, que alterou a compreensão do espaço e do tempo. A famosa equação E=mc², que expressa a equivalência entre massa e energia, é uma das suas contribuições mais conhecidas. Einstein recebeu o Prêmio Nobel de Física em 1921 por suas explicações sobre o efeito fotoelétrico, um fenômeno fundamental na teoria quântica.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Fonte das informações: Wikipedia, Enciclopédia Britânica</p>
+        <p>Contato: contato@biografiascientistas.com</p>
+        <p>&copy; 2023 Biografias de Cientistas Famosos</p>
+    </footer>
 
-.logo {
-    width: 100px; /* Tamanho do logo */
-}
-
-.banner {
-    position: relative;
-    overflow: hidden;
-}
-
-.banner img {
-    width: 100%;
-    height: auto;
-    transition: opacity 1s ease-in-out;
-}
-
-.conteudo {
-    padding: 20px;
-    background: white;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #333; /* Cor dos títulos */
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align
+    <script src="script.js"></script>
+</body>
+</html>
