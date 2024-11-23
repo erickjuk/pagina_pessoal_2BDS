@@ -1,63 +1,46 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvendo Sistema</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-            <h1>Desenvolvendo Sistema</h1>
-        </div>
-        <div class="social-icons">
-            <img src="whatsapp.png" alt="WhatsApp">
-            <img src="instagram.png" alt="Instagram">
-            <img src="facebook.png" alt="Facebook">
-        </div>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo padrão */
+}
 
-    <section class="hero">
-        <h2>Seu Portal para Tecnologia</h2>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h3>Desenvolvimento de Sistemas:</h3>
-                <p>Dominando Tecnologias e Criando Experiências Digitais Inovadoras</p>
-            </div>
-            <img src="aluno-destaque.png" alt="Aluno em Destaque">
-        </div>
-    </section>
+header {
+    background: #4a90e2; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-    <section class="featured-students">
-        <h2>Alunos em Destaque 2024</h2>
-        <div class="students-grid">
-            <img src="aluno1.png" alt="Aluno 1">
-            <img src="aluno2.png" alt="Aluno 2">
-            <img src="aluno3.png" alt="Aluno 3">
-            <img src="aluno4.png" alt="Aluno 4">
-            <img src="aluno5.png" alt="Aluno 5">
-            <img src="aluno6.png" alt="Aluno 6">
-            <img src="aluno7.png" alt="Aluno 7">
-            <img src="aluno8.png" alt="Aluno 8">
-        </div>
-    </section>
+.logo {
+    width: 100px; /* Tamanho do logo */
+}
 
-    <section class="about">
-        <p>
-            Nossa Plataforma: Seu Portal para a Maestria em Desenvolvimento de Sistemas oferece cursos especializados, conteúdo interativo, projetos práticos e suporte personalizado. Você aprenderá com aulas em vídeo, tutoriais e exercícios de codificação. Participe de uma comunidade de aprendizado, obtenha feedback e mantenha-se atualizado com as últimas tendências da indústria. Comece sua jornada para se tornar um desenvolvedor de sistemas de sucesso!
-        </p>
-    </section>
+.banner {
+    position: relative;
+    overflow: hidden;
+}
 
-    <footer>
-        <p>Para mais informações ligue para <strong>+55 41 9 96518048</strong></p>
-        <p>2021-2024 | CURSO ADS | Todos os direitos reservados.</p>
-        <div class="links">
-            <a href="#">Política de Privacidade</a> | 
-            <a href="#">Proteção de Dados</a>
-        </div>
-    </footer>
-</body>
-</html>
+.banner img {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+}
 
+.conteudo {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333; /* Cor dos títulos */
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align
