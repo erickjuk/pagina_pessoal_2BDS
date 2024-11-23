@@ -3,50 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biografias de Cientistas Famosos</title>
+    <title>Biografias de Cientistas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="th.jpeg" alt="Logo da Página" class="logo">
-        <h1>Biografias de Cientistas Famosos</h1>
-    </header>
-    
-    <main>
-        <div class="banner">
-            <img src="albert_einstein.jpeg" alt="Banner de Cientistas Famosos">
-        </div>
-        
-        <section class="conteudo">
-            <h2>Marie Curie</h2>
-            <img src="MarieCurie.jpeg" alt="Marie Curie" class="cientista-imagem">
-            <p>Marie Curie, nascida Maria Skłodowska em 7 de novembro de 1867,
-                 foi uma física e química polonesa. Ela é famosa por suas pesquisas sobre a radioatividade, 
-                 um termo que ela mesma cunhou. Curie foi a primeira mulher a ganhar um Prêmio Nobel e a única a ganhar em duas áreas diferentes: Física (1903) e Química (1911).
-                  Suas descobertas sobre o polônio e o rádio abriram caminho para o uso da radiação em tratamentos médicos. Além disso, 
-                  ela foi pioneira no uso de raios X em cirurgias durante a Primeira Guerra Mundial.</p>
-            
-            <h2>Isaac Newton</h2>
-            <img src="Isaac_Newton.jpeg" alt="Isaac Newton" class="cientista-imagem">
-            <p>Isaac Newton nasceu em 25 de dezembro de 1642, em Woolsthorpe, Inglaterra.
-                 Ele é amplamente considerado um dos maiores cientistas de todos os tempos.
-                  Newton formulou as três leis do movimento e a lei da gravitação universal, que descreve a atração entre objetos massivos
-                  . Seu trabalho "Philosophiæ Naturalis Principia Mathematica", publicado em 1687, é uma das obras mais influentes da história da ciência,
-                   estabelecendo as bases da mecânica clássica. Newton também fez contribuições significativas para a matemática, incluindo o desenvolvimento do cálculo.</p>
-            
-            <h2>Albert Einstein</h2>
-            <img src="AlbertEinstein.jpeg" alt="Albert Einstein" class="cientista-imagem">
-            <p>Albert Einstein nasceu em 14 de março de 1879, em Ulm, na Alemanha. 
-                Ele revolucionou a física com sua teoria da relatividade, que alterou a compreensão do espaço e do tempo. A famosa equação E=mc²,
-                 que expressa a equivalência entre massa e energia, é uma das suas contribuições mais conhecidas. Einstein recebeu o Prêmio Nobel de Física em 1921 por suas explicações sobre o efeito fotoelétrico,
-                  um fenômeno fundamental na teoria quântica. Além de suas contribuições científicas, Einstein também era um defensor dos direitos civis e da paz mundial.</p>
+    <div class="container">
+        <header class="header">
+            <h1>Biografias de Cientistas</h1>
+            <img src="th.jpeg" alt="Imagem de ciência com partículas" class="header-img">
+        </header>
+        <section class="cards">
+            <div class="card">
+                <img src="AlbertEinstein.jpeg" alt="Albert Einstein">
+                <h2>Albert Einstein</h2>
+                <p>Albert Einstein (1879–1955), nascido em Ulm, Alemanha, revolucionou a física com a teoria da relatividade, incluindo a famosa equação E=mc². Ganhou o Prêmio Nobel de Física em 1921 por suas explicações sobre o efeito fotoelétrico.</p>
+            </div>
+            <div class="card">
+                <img src="Isaac_Newton.jpeg" alt="Isaac Newton">
+                <h2>Isaac Newton</h2>
+                <p>Isaac Newton (1642–1727), nascido em Woolsthorpe, Inglaterra, foi um dos maiores cientistas da história. Ele formulou as leis do movimento e a gravitação universal, fundamentais para a mecânica clássica.</p>
+            </div>
+            <div class="card">
+                <img src="MarieCurie.jpeg" alt="Marie Curie">
+                <h2>Marie Curie</h2>
+                <p>Marie Curie (1867–1934), nascida na Polônia, foi uma pioneira física e química em pesquisas sobre radioatividade. Primeira mulher a ganhar um Prêmio Nobel, recebeu dois: em Física (1903) e Química (1911).</p>
+            </div>
         </section>
-    </main>
-    
-    <footer>
-        <p>Fonte das informações: Wikipedia, Enciclopédia Britânica</p>
-        <p>Contato: contato@biografiascientistas.com</p>
-        <p>&copy; 2024 Biografias de Cientistas Famosos</p>
-    </footer>
+        <footer class="footer">
+            <p>Fontes das informações: Wikipedia, Enciclopédia Britânica</p>
+            <p>© 2024 Biografias de Cientistas</p>
+        </footer>
+    </div>
 </body>
 </html>

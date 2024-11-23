@@ -1,65 +1,77 @@
+/* Estilo base */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Cor de fundo padrão */
+    background-color: #1c1c1c;
+    color: #ffffff;
 }
 
-header {
-    background: #4a90e2; /* Cor do cabeçalho */
-    color: white;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
     padding: 20px;
-    text-align: center;
+    background-color: #333333;
 }
 
-.logo {
-    width: 100px; /* Tamanho do logo */
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
 }
 
-.banner {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.banner img {
+.header-img {
     width: 100%;
     height: auto;
-    max-height: 400px; /* Limita a altura do banner */
-    object-fit: cover; /* Cobre o espaço do banner */
-}
-
-.conteudo {
-    padding: 20px;
-    background: white;
-    margin: 20px;
+    margin-top: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #333; /* Cor dos títulos */
-    margin-top: 20px; /* Espaçamento acima dos títulos */
+/* Cartões */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
 }
 
-.cientista-imagem {
-    width: 100%; /* Imagem ocupa toda a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 5px; /* Bordas arredondadas */
-    margin: 10px 0; /* Espaçamento acima e abaixo da imagem */
+.card {
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-footer {
-    background: #333; /* Cor de fundo do rodapé */
-    color: white;
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #b3b3b3;
+}
+
+/* Rodapé */
+.footer {
     text-align: center;
     padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px; /* Espaçamento acima do rodapé */
-}
-
-footer p {
-    margin: 5px 0; /* Espaçamento entre os parágrafos do rodapé */
+    background-color: #333333;
+    font-size: 0.9em;
+    color: #b3b3b3;
 }
